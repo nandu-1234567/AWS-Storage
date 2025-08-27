@@ -1,0 +1,28 @@
+AWS S3 :
+ * Amazon Simple Storage Service (S3) is an object storage service from Amazon Web Services. It provides scalable, durable, and available     storage. 
+Key features :
+ * Object Storage: S3 uses objects stored within buckets.
+ * Scalability: S3 is designed for extensive storage capacity.
+ * Durability and Availability: S3 aims for high durability and availability, achieved by storing data across multiple devices and Availability Zones (AZs).
+ * Security: S3 offers features for controlling data access. 
+Use cases :
+ * S3 is used for various data storage and management needs, including: 
+   * Data Lakes: S3 can serve as a data lake.
+   * Backup and Restore: S3 can be used for data backups.
+   * Data Archiving: S3 classes are suitable for long-term archiving.
+   * Content Distribution: S3 can host static assets.
+   * Big Data Analytics: S3 is used for storing raw data for analytics.
+S3 architecture and how it works :
+   * Buckets: Data is stored in buckets.
+   * Objects: Objects are the data files within buckets devopsschool.com.
+   * Regions and Availability Zones: S3 stores data across geographic regions and availability zones. 
+   * Amazon S3 is a versatile, durable, and scalable object storage solution for various applications. 
+Advanced S3 concepts :
+   * Amazon S3 offers a powerful suite of features for optimizing performance, securing your data, and managing its lifecycle effectively.
+   * Versioning and cross-region replication in Amazon S3 - Both S3 Versioning and Cross-Region Replication (CRR) are crucial features in Amazon S3 that enhance data      protection, availability, and disaster recovery capabilities.
+   * Life policies and Intelligent tiering :  Lifecycle Policies and Intelligent-Tiering. Both aim to optimize storage costs, but they operate differently and are      suited for different scenarios. 
+   * S3 Transfer Acceleration : Amazon S3 Transfer Acceleration (S3TA) is a feature designed to enhance the speed of data transfers to and from your S3 buckets.
+
+***** S3 data organization is based on the hierarchical structure of buckets and objects.
+  * Buckets - Buckets serve as the fundamental containers for storing your data.
+  * Objects - In Amazon S3, data is stored as objects within containers called buckets. 
