@@ -1,0 +1,30 @@
+AWS Storage Services:
+ * AWS Storage Services are a set of cloud services that help you protect,m manage and move data in the cloud.
+ * These services can be broadly categorized into object storage, file storage, block storage, and specialized services for backup, migration, and hybrid cloud solutions. 
+ 1. Amazon S3 (Simple Storage Service) :
+    Type: Object Storage.
+    Purpose: Stores and retrieves any amount of data from anywhere on the web.
+    Use Cases: Hosting static websites, content distribution, data archiving, backup and recovery, big data analytics.
+ 2. Amazon EBS (Elastic Block Store) :
+    * EBS provides block storage volumes for use with Amazon EC2 instances. 
+    * It's used for databases, boot volumes, development environments, and applications needing consistent performance.
+    * Key features include high performance, snapshots, various volume types, and encryption. 
+3. Amazon EFS (Elastic File System):
+    * EFS offers a scalable NFS file system for AWS Cloud and on-premises use.
+    * It's suitable for shared file storage, content management, and big data analytics.
+    * Features include elastic capacity, shared access, high throughput, and encryption. 
+4. Amazon FSx :
+    * FSx provides fully managed third-party file systems optimized for specific workloads, such as Windows applications, HPC, and machine learning. 
+    * Features include high performance, application compatibility, and scalability. 
+5. AWS Storage Gateway :
+    * This hybrid cloud service connects on-premises applications to AWS cloud storage. 
+    * Use cases include transferring backups to the cloud and providing low-latency access to cloud data for on-premises applications. 
+    * It supports File Gateway, Tape Gateway, and Volume Gateway. 
+6. AWS Snow Family :
+    * The Snow Family consists of physical devices like Snowcone, Snowball, and Snowmobile for transferring large datasets into and out of AWS, especially with limited       network bandwidth. 
+7. AWS Backup :
+    * AWS Backup is a fully managed service that centralizes and automates data protection across various AWS services and on-premises environments. 
+    * Features include centralized management, compliance support, and disaster recovery. 
+8. Amazon Glacier/S3 Glacier :
+   * Amazon S3 Glacier is a family of storage classes within Amazon S3 (Simple Storage Service) 
+   * specifically designed for long-term archival and backups of data that is infrequently accessed.
